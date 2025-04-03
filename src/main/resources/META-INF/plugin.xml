@@ -1,0 +1,23 @@
+<idea-plugin>
+    <id>com.example.renamecommit</id>
+    <name>Rename Current Commit</name>
+    <version>1.0.0</version>
+    <vendor email="support@example.com" url="https://example.com">Your Name</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>Git4Idea</depends>
+
+    <actions>
+
+        <action id="RenameCurrentCommit"
+                class="com.renamecommit.RenameCommitAction"
+                icon="com.intellij.execution.testframework.sm.runner.ui.SMPoolOfTestIcons.SKIPPED_E_ICON">
+                text="Rename Commit"
+                <override-text place="MainMenu" text="Rename Commit"/>
+                description="Amend the selected commit message">
+
+            <add-to-group group-id="Git.MainMenu" anchor="last"/>
+        </action>
+
+    </actions>
+</idea-plugin>
