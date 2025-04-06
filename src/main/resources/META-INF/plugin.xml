@@ -11,7 +11,7 @@
 
         <action id="RenameCurrentCommit"
                 class="com.renamecommit.RenameCommitAction"
-                icon="com.intellij.execution.testframework.sm.runner.ui.SMPoolOfTestIcons.SKIPPED_E_ICON">
+                icon="com.intellij.webcore.libraries.ui.ScriptingLibraryIcons.CLEAR_ICON">
                 text="Rename Commit"
                 <override-text place="MainMenu" text="Rename Commit"/>
                 description="Amend the selected commit message">

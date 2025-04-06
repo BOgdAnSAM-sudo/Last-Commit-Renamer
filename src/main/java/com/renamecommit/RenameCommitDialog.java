@@ -28,6 +28,10 @@ public class RenameCommitDialog extends DialogWrapper {
         contentPanel.add(commitMessageArea);
     }
 
+    public String getCommitMessage() {
+        return commitMessageArea.getText();
+    }
+
     @Override
     protected JComponent createCenterPanel() {
         return contentPanel;
